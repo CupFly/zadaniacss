@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META CHARSET="UTF-8">
+</head>
+<body>
+<ol type="1">
+<h1><li> Jakie standardowo dostepne sa czcionki w systemie Windows( trzy, uzyj wyliczenia z
+  kwadratem)? </h1>
+<ul type="square">
+<li> Times New Roman (szeryfowa)
+<li> Arial (bezszeryfowa)
+<li> Courier New (monotypiczna)
+</ul>
+<h1><li> Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, uzyj wyliczenia z
+okregiem nie kolem) </h1>
+<ul type="circle">
+<li> Verdana
+<li> Tahoma
+<li>'Trebuchet MS
+<li> Georgia
+</ul>
+<h1><li> Wymien rodziny ogolne ( piec, uzyj wyliczenia z kolem, podkreslenie, przyklady </h1>
+<ul type="disc">
+<li> serif - czcionka szeryfowa (koncowki znakow posiadaja "ozdobniki"), np.: 'Times
+New Roman', Georgia, Garamond, Bodoni
+<li> sans-serif - czcionka bezszeryfowa (koncowki znakow sa proste), np.: Arial, Verdana,
+'Trebuchet MS', Helvetica, Univers, Futura
+<li> monospace - czcionka o stalej szerokosci znakow - monotypiczna (wyglada, jak
+pisana na maszynie), np.: Courier, 'Courier New'
+<li> cursive - czcionka majaca pewne cechy pochylej (wyglada, jak pisana recznie)
+<li> fantasy - czcionka fantazyjna (dekoracyjna)
+</ul>
+<h1> <li> Kiedy stosujemy rodziny czcionek, w jaki sposob wpisujemy( deklarujemy rodziny
+czcionek). </h1>
+Rodziny ogolne wykorzystuje sie jako ostatnia alternatywa - jesli uzytkownik nie
+bedzie posiadal zadnej czcionki, ktorej nazwe wpisalismy wprost.
+ <h1> <li> Rodzaje wyrownanie tekstu (cztery, wyliczenie) </h1>
+ <ol type="1">
+ <li> Do prawej
+ <li> Do lewej
+ <li> wysrodkowane
+ <li> wyjustrowane
+ </ol>
+  <h1> <li> Kolor tekstu (skladnia opis) </h1>
+  <textarea cols="30">
+   selektor {color: kolor;}
+  </textarea> <br>
+Wyraz selektor ma zastosowanie do wszystkich elementow.
+Natomiast jako kolor nalezy podac definicje koloru.
+Dzieki temu poleceniu mozna ustalic dowolny kolor tekstu.
+<h1> <li> dekoracja tekstu (skladnia, opis, odpowiednie wciecia, podkreslenia numerowania
+a) b).) </h1>
+Tekst mozna "udekorowac" w sposob nastepujacy:
+<ol type="a">
+<li> <u> Podkreslic </u> - (underline)
+<li> <i> Przekreslic </i>  - (line-through)
+<li> Mozna dodac migotanie tekstu (tylko Netspace/Mozilla/Opera) - (blink) 
+ Skladnia  <br>
+ <textarea cols="40"> 
+selektor {text-decoration: dekoracja;}
+  </textarea>
+  </ol>
+<h1> <li> Warianty czcionek </h1> 
+<ul>
+<li> normal - czcionka normalna (podstawowa)
+<li> small-caps - kapitaliki
+</ul> 
+<h1> <li> Pogrubienie czcionek (wyliczenia) </h1>
+<ol type="I">
+<li> normal - czcionka normalna (podstawowa)
+<li> bold - czcionka pogrubiona
+<li> 100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800,
+900 - kazdy nastepny numer wskazuje wage czcionki przynajmniej tak samo
+wytluszczonej jak dla poprzedniej wartosci w sekwencji
+</ol>
+<h1> <li> Rozmiar czcionek (wyliczenia, ....) </h1>
+<ol type="1">
+<li> xx-small- najmniejsza
+<li> x-small- mniejsza 
+<li> small- mala 
+<li> medium- srednia 
+<li> large- duza
+<li> x-large- wieksza
+<li> xx-large- najwieksza
+</ol>
+<h1> <li> Transformacja tekstu (skladnia, opis, podkreslenia) </h1>
+<h3> Skladnia </h3>
+<textarea cols="45"> 
+selektor {text-transform: transformacja;}
+</textarea> <br>
+Wyraz selektor ma zastosowanie do wszystkich elementow.
+transformacja:
+ <u>"none" </u> - bez zmian <br>
+ <u>"capitalize"</u> - zamiana pierwszych liter wszystkich wyrazow na wielkie <br>
+ <u>"uppercase"</u> - zamiana wszystkich liter na wielkie <br>
+ <u>"lowercase"</u> - zamiana wszystkich liter na male <br>
+ <h1> <li> Wciecia tekstu (skladnia, jednostki miar) </h1> 
+ <h3> Skladnia </h3>
+<textarea cols="45"> 
+selektor {text-indent: wciecie;}
+</textarea>
+<h3> Jednostki miar </h3> 
+<ul> 
+<li> piksele-px
+<li> punkty edytorskie-pt
+<li> wysokosc litery "x"-ex
+<li> wysokosc aktualnej czcionki - em
+<li> centymetry lub milimetry - cm, mm
+<li> czesci dziesietne centymetra pisane z kropka np.: 0.5cm
+<li> cale - in (1in=2.54cm)
+<li>  procent wielkosci nadrzednej - %
+</ul> 
+<h1> <li> Odstep miedzy wierszami </h1> 
+<h3> Skladnia </h3>
+<textarea cols="45"> 
+selektor {line-height: odstep;}
+</textarea>
+<h1> <li> Odstep miedzy wyrazami </h1> 
+<textarea cols="45"> 
+selektor {word-spacing: odstep;}
+</textarea>
+<h1> <li> Odstep miedzy literami </h1>
+<textarea cols="45"> 
+selektor {letter-spacing: odstep;}
+</textarea>
+<h1> <li> Laczenie wlasnosci czcionek i tekstu </h1> 
+Prawidlowa kolejnosc wartosci atrybutow:
+<ol type="I">
+<li> font-style
+<li> font-variant
+<li> font-weight
+<li> font-size (po tym ukosnik "/"; bezposrednio przed "line-height")
+<li> line-height
+<li> font-family
+</ol>
