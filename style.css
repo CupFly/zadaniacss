@@ -30,10 +30,10 @@
       
       a:hover {
           border: 2px solid white;
-          box-shadow: 0px 7px 10px black;
-          transform: scale(1.05);
-              -webkit-transform: scale(1.05);
-              -moz-transform: scale(1.05);
+          box-shadow: 0px 8px 10px black;
+          transform: scale(1.02);
+              -webkit-transform: scale(1.02);
+              -moz-transform: scale(1.02);
       }
 
       a:visited { color: none; }
@@ -45,6 +45,7 @@
           border: 5px solid white;
           border-radius: 10px;
           object-fit: cover;
+          background-color:white;
       }
       .b {
           background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
